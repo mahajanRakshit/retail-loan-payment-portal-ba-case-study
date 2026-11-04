@@ -1,0 +1,9 @@
+﻿RLPP-01,Onboarding,US-01,Register and create profile,Must,Sprint 1,To Do,Profile validation and approved verification
+RLPP-02,Onboarding,US-02,View document checklist,Must,Sprint 1,To Do,Product-specific checklist and status
+RLPP-03,Loan Application,US-03,Check preliminary eligibility,Must,Sprint 2,To Do,Indicative result with disclaimer
+RLPP-04,Loan Application,US-04,Submit loan application,Must,Sprint 2,To Do,Reference number and duplicate prevention
+RLPP-05,Application Tracking,US-05,Track application status,Must,Sprint 2,To Do,"Status, timestamp and pending action"
+RLPP-06,EMI Payments,US-06,View EMI schedule,Must,Sprint 3,To Do,Schedule from bank system
+RLPP-07,EMI Payments,US-07,Make EMI payment,Must,Sprint 3,To Do,Verified provider response and receipt
+RLPP-08,EMI Payments,US-08,View payment history,Should,Sprint 3,To Do,Customer-specific transaction history
+RLPP-09,Operations,US-09,Review application and update status,Should,Sprint 4,To Do,Role-based permitted status changes

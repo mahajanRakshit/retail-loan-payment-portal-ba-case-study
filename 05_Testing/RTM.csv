@@ -1,0 +1,8 @@
+﻿BR-01,"FR-001, FR-002, FR-003",US-01,"TC-01, TC-02",Profile journey
+BR-02,"FR-004, FR-005, FR-006, FR-007",US-02,"TC-03, TC-04",Document checklist
+BR-03,"FR-008, FR-009",US-03,TC-05,Preliminary eligibility
+BR-04,"FR-010, FR-011, FR-012",US-04,"TC-06, TC-07",Application submission
+BR-05,"FR-013, FR-014, FR-015","US-05, US-09","TC-08, TC-14",Application tracking
+BR-06,FR-016,US-06,TC-09,EMI schedule
+BR-07,"FR-017, FR-018, FR-019, FR-020",US-07,"TC-10, TC-11, TC-12",Payment processing status
+BR-08,FR-021,US-08,TC-13,Payment history

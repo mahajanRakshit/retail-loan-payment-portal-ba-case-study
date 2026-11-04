@@ -1,0 +1,14 @@
+﻿TC-01,FR-001/FR-002,Register with valid mandatory data,Enter valid details and complete approved verification,Profile is created,Positive,Not Run
+TC-02,FR-002,Submit profile with missing mandatory field,Leave a required field blank and submit,Submission blocked; field-level message shown,Negative,Not Run
+TC-03,FR-004,Load product document checklist,Select a configured loan product,Correct configured document checklist appears,Positive,Not Run
+TC-04,FR-006/FR-007,View rejected document,Use a test application with a rejected document and review note,Rejected status and next action are displayed,Positive,Not Run
+TC-05,FR-009,View preliminary eligibility disclaimer,Complete required inputs and request indicative check,Indicative result and non-final-approval disclaimer appear,Positive,Not Run
+TC-06,FR-010/FR-011,Submit complete application,Complete mandatory fields and documents; submit once,Application created with unique reference,Positive,Not Run
+TC-07,FR-010,Submit incomplete application,Omit a mandatory document and submit,Submission blocked with missing item identified,Negative,Not Run
+TC-08,FR-013/FR-014,Track own application,Sign in as customer and open My Applications,Only own application and latest status appear,Positive,Not Run
+TC-09,FR-016,View EMI schedule,Open repayment page for test loan with schedule data,Correct supplied EMI amount and due dates appear,Positive,Not Run
+TC-10,FR-018,Payment provider timeout,Simulate timeout/no definitive provider response,Status remains Pending; no success receipt is issued,Exception,Not Run
+TC-11,FR-019/FR-020,Successful payment confirmation,Simulate verified provider success response,Status Success and transaction reference/receipt appear,Positive,Not Run
+TC-12,FR-019,Failed payment confirmation,Simulate verified provider failure response,Status Failed and approved next step appear,Negative,Not Run
+TC-13,FR-021,View payment history,Open history for signed-in test customer,Only that customer's transactions appear,Positive,Not Run
+TC-14,FR-015/NFR-01,Unauthorized status update,Attempt status change using a role without permission,Action is denied and event is logged,Security,Not Run
